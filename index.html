@@ -1,20 +1,141 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itumeleng More — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <p>Conflict merge
-        
-    </p>
-<h2>Student A Section</h2>
-<p>This section was added by Student A.</p>
-<h1>Hello World</h1>
-<p>This is my first GitHub Pages site!</p>
-<h3>Student B Section</h3>
-<p>This section was added by Student B.</p>
-<h1>Hello World</h1>
-<p>This is my first GitHub Pages site!</p>
+    <!-- SCROLL BAR -->
+<div id="scroll-bar"></div>
+
+<!-- ══════════════════════════════
+     DESKTOP NAV
+══════════════════════════════ -->
+<nav id="desktop-nav">
+  <div class="logo">Itumeleng More</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════════════════════════
+     HAMBURGER NAV
+══════════════════════════════ -->
+<nav id="hamburger-nav">
+  <div class="logo">Itumeleng More</div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" id="hamburgerIcon">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="menu-links" id="menuLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════
+     PROFILE
+══════════════════════════════ -->
+<section id="profile">
+  <div class="section__pic1-container">
+    <div class="photo-wrap">
+      <img id="heroPhoto" src="./assets/IMG-20250414-WA0139.jpg" alt="Itumeleng More profile picture" />
+      <div class="photo-upload-btn" title="Upload photo" onclick="document.getElementById('heroInput').click()">📷</div>
+    </div>
+    <input type="file" id="heroInput" accept="image/*" />
+    <p class="photo-hint">Click 📷 to upload your photo</p>
+  </div>
+
+  <div class="section__text">
+    <div class="status-pill"><span class="dot"></span> Available for Opportunities</div>
+    <p class="section__text__p1">Hello, I'm</p>
+    <h1 class="title">Itumeleng More</h1>
+    <p class="section__text__p2">Aspiring Software Engineer &amp; Data Science Enthusiast</p>
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('./assets/ItumelengMore_s_CVm.pdf')">📄 Download CV</button>
+      <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Me</button>
+    </div>
+    <div id="socials-container">
+      <div class="social-btn" title="LinkedIn" onclick="location.href='https://www.linkedin.com/in/itumeleng-more-5a2073244/'">💼</div>
+      <div class="social-btn" title="GitHub"   onclick="location.href='https://github.com/Moreitu1985'">⚡</div>
+      <div class="social-btn" title="Portfolio" onclick="location.href='https://myportfolioi.vercel.app'">🌐</div>
+    </div>
+  </div>
+  
+</section>
+
+<!-- ══════════════════════════════
+     ABOUT
+══════════════════════════════ -->
+<section id="about">
+  <p class="s-eyebrow reveal">Get To Know More</p>
+  <h2 class="s-title reveal">About Me</h2>
+  <div class="divider reveal"></div>
+
+  <div class="about-inner">
+    <!-- Photo -->
+    <div class="reveal">
+      <div class="about-photo-wrap">
+        <img id="aboutPhoto" src="./assets/IMG-20250414-WA0211.jpg" alt="Profile picture" />
+        <div class="photo-upload-btn" title="Upload photo" onclick="document.getElementById('aboutInput').click()">📷</div>
+      </div>
+      <input type="file" id="aboutInput" accept="image/*" />
+    </div>
+	
+
+    <!-- Text -->
+    <div class="reveal">
+      <div class="about-cards">
+        <div class="details-container">
+          <div class="card-icon">💻</div>
+          <h3>Experience</h3>
+          <p>Aspiring Software Developer</p>
+        </div>
+        <div class="details-container">
+          <div class="card-icon">🎓</div>
+          <h3>Education</h3>
+          <p>BSc Computer Science &amp; Informatics — UJ</p>
+        </div>
+        <div class="details-container">
+          <div class="card-icon">🤖</div>
+          <h3>Certification</h3>
+          <p>Fundamentals of AI — IBM, 2026</p>
+        </div>
+        <div class="details-container">
+          <div class="card-icon">📍</div>
+          <h3>Location</h3>
+          <p>Johannesburg, South Africa 🇿🇦</p>
+        </div>
+      </div>
+
+      <p class="about-bio">
+        I am a <strong>Computer Science and Informatics graduate</strong> from the University of Johannesburg with a strong passion for technology, problem-solving, and innovation. My academic background has equipped me with skills in software development, database management, and data analysis.
+        <br><br>
+        I enjoy building efficient, user-friendly systems and exploring how technology can improve everyday life. I aspire to contribute to impactful projects in <strong>software development, data science, and digital transformation</strong>.
+      </p>
+
+      <div class="about-details-grid">
+        <div class="adg-item"><div class="adg-lbl">Name</div><div class="adg-val">Itumeleng More</div></div>
+        <div class="adg-item"><div class="adg-lbl">Location</div><div class="adg-val">Johannesburg, ZA</div></div>
+        <div class="adg-item"><div class="adg-lbl">Phone</div><div class="adg-val">076 588 2113</div></div>
+        <div class="adg-item"><div class="adg-lbl">Email</div><div class="adg-val">Itumelengmore15@gmail.com</div></div>
+        <div class="adg-item"><div class="adg-lbl">LinkedIn</div><div class="adg-val">in/itumeleng-more</div></div>
+        <div class="adg-item"><div class="adg-lbl">Languages</div><div class="adg-val">English · Setswana · isiZulu</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
 </body>
 </html>
