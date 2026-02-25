@@ -4,7 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Itumeleng More — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+ 
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- SCROLL BAR -->
@@ -47,14 +50,13 @@
      PROFILE
 ══════════════════════════════ -->
 <section id="profile">
+
   <div class="section__pic1-container">
     <div class="photo-wrap">
-      <img id="heroPhoto" src="./assets/IMG-20250414-WA0139.jpg" alt="Itumeleng More profile picture" />
-      <div class="photo-upload-btn" title="Upload photo" onclick="document.getElementById('heroInput').click()">📷</div>
+      <img id="heroPhoto" src="assets/ProfilePic.jpg" alt="Itumeleng More profile picture" />
     </div>
-    <input type="file" id="heroInput" accept="image/*" />
-    <p class="photo-hint">Click 📷 to upload your photo</p>
   </div>
+
 
   <div class="section__text">
     <div class="status-pill"><span class="dot"></span> Available for Opportunities</div>
@@ -83,15 +85,15 @@
   <div class="divider reveal"></div>
 
   <div class="about-inner">
+
     <!-- Photo -->
-    <div class="reveal">
-      <div class="about-photo-wrap">
-        <img id="aboutPhoto" src="./assets/IMG-20250414-WA0211.jpg" alt="Profile picture" />
-        <div class="photo-upload-btn" title="Upload photo" onclick="document.getElementById('aboutInput').click()">📷</div>
-      </div>
-      <input type="file" id="aboutInput" accept="image/*" />
-    </div>
-	
+<div class="reveal">
+  <div class="about-photo-wrap">
+    <img id="aboutPhoto" src="assets/Portfolio_pic.jpg" alt="Profile picture" />
+  </div>
+</div>
+    <!-- Photo -->
+
 
     <!-- Text -->
     <div class="reveal">
@@ -99,7 +101,7 @@
         <div class="details-container">
           <div class="card-icon">💻</div>
           <h3>Experience</h3>
-          <p>Aspiring Software Developer</p>
+          <p>Developer</p>
         </div>
         <div class="details-container">
           <div class="card-icon">🎓</div>
@@ -314,8 +316,8 @@
     <!-- Crime Mapping -->
     <div class="proj-card reveal" data-cat="desktop">
       <div class="proj-video-wrap">
-        <div class="yt-facade" data-vid="j5X0wNytWj8"
-             style="background-image:url('https://img.youtube.com/vi/j5X0wNytWj8/maxresdefault.jpg')">
+        <div class="yt-facade" data-vid="j5X0wNytWj8"></div>
+              <a href="https://www.youtube.com/watch?v=j5X0wNytWj8" target="_blank" class="proj-yt">▶ Demo</a>
           <div class="yt-play-btn">
             <svg viewBox="0 0 68 48" width="52" height="37"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>
           </div>
@@ -342,7 +344,7 @@
           <div class="proj-tags"><span class="ptag">Java</span><span class="ptag">JavaFX</span><span class="ptag">GIS</span><span class="ptag">Dijkstra's</span></div>
           <div class="proj-links-row">
             <a href="https://github.com/Moreitu1985/CrimeMapping" target="_blank" class="proj-gh">⚡ GitHub</a>
-            <a href="https://youtu.be/j5X0wNytWj8" target="_blank" class="proj-yt">▶ Demo</a>
+            <a href="https://www.youtube.com/watch?v=j5X0wNytWj8" target="_blank" class="proj-yt">▶ Demo</a>
           </div>
         </div>
       </div>
@@ -444,6 +446,7 @@
           <div class="proj-tags"><span class="ptag">Django</span><span class="ptag">Python</span><span class="ptag">SQL</span></div>
           <div class="proj-links-row">
             <a href="https://github.com/Moreitu1985" target="_blank" class="proj-gh">⚡ GitHub</a>
+            
           </div>
         </div>
       </div>
@@ -637,6 +640,6 @@
   <p class="f-copy">© 2025 Itumeleng More · BSc Computer Science &amp; Informatics · University of Johannesburg · Johannesburg, South Africa 🇿🇦</p>
 </footer>
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
