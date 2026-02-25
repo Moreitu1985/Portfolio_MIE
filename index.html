@@ -5,6 +5,9 @@
   <title>Itumeleng More — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+ 
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- SCROLL BAR -->
@@ -47,14 +50,13 @@
      PROFILE
 ══════════════════════════════ -->
 <section id="profile">
+
   <div class="section__pic1-container">
     <div class="photo-wrap">
-      <img id="heroPhoto" src="./assets/IMG-20250414-WA0139.jpg" alt="Itumeleng More profile picture" />
-      <div class="photo-upload-btn" title="Upload photo" onclick="document.getElementById('heroInput').click()">📷</div>
+      <img id="heroPhoto" src="assets/ProfilePic.jpg" alt="Itumeleng More profile picture" />
     </div>
-    <input type="file" id="heroInput" accept="image/*" />
-    <p class="photo-hint">Click 📷 to upload your photo</p>
   </div>
+
 
   <div class="section__text">
     <div class="status-pill"><span class="dot"></span> Available for Opportunities</div>
@@ -83,15 +85,15 @@
   <div class="divider reveal"></div>
 
   <div class="about-inner">
+
     <!-- Photo -->
-    <div class="reveal">
-      <div class="about-photo-wrap">
-        <img id="aboutPhoto" src="./assets/IMG-20250414-WA0211.jpg" alt="Profile picture" />
-        <div class="photo-upload-btn" title="Upload photo" onclick="document.getElementById('aboutInput').click()">📷</div>
-      </div>
-      <input type="file" id="aboutInput" accept="image/*" />
-    </div>
-	
+<div class="reveal">
+  <div class="about-photo-wrap">
+    <img id="aboutPhoto" src="assets/Portfolio_pic.jpg" alt="Profile picture" />
+  </div>
+</div>
+    <!-- Photo -->
+
 
     <!-- Text -->
     <div class="reveal">
@@ -99,7 +101,7 @@
         <div class="details-container">
           <div class="card-icon">💻</div>
           <h3>Experience</h3>
-          <p>Aspiring Software Developer</p>
+          <p>Developer</p>
         </div>
         <div class="details-container">
           <div class="card-icon">🎓</div>
@@ -135,7 +137,509 @@
     </div>
   </div>
 </section>
+<!-- ══════════════════════════════
+     EXPERIENCE
+══════════════════════════════ -->
+<section id="experience">
+  <p class="s-eyebrow reveal">Work History</p>
+  <h2 class="s-title reveal">Professional Experience</h2>
+  <div class="divider reveal"></div>
 
-    
+  <div class="exp-layout reveal">
+    <div class="exp-sidebar-card">
+      <div class="esc-tag">Position</div>
+      <div class="esc-role">Student Recruiter</div>
+      <div class="esc-co">Jezreel Accommodation</div>
+      <div class="esc-date">📅 Feb 2022 – May 2022</div>
+    </div>
+
+    <div>
+      <div class="exp-timeline-row">
+        <div class="exp-dot"></div>
+        <div class="exp-line"></div>
+      </div>
+      <div class="exp-role-title">Student Recruiter</div>
+      <div class="exp-meta">
+        <span><strong>Jezreel Accommodation</strong></span>
+        <span>📍 Johannesburg</span>
+        <span>📅 Feb 2022 – May 2022</span>
+      </div>
+
+      <div class="exp-section-label">Key Responsibilities &amp; Achievements</div>
+      <ul class="exp-list">
+        <li><strong>Project Management:</strong> Coordinated end-to-end student recruitment — planning, outreach, scheduling, and reporting — demonstrating the structured thinking needed in agile development roles.</li>
+        <li><strong>Stakeholder Communication:</strong> Acted as primary liaison between accommodation management, recruitment teams, and prospective students, ensuring information flowed clearly across all parties.</li>
+        <li><strong>Analytical Thinking:</strong> Gathered and analyzed student feedback to identify friction points in the recruitment process, then implemented targeted improvements.</li>
+        <li><strong>Deadline Management:</strong> Managed multiple concurrent workflows under time pressure while maintaining high accuracy and consistency.</li>
+        <li><strong>Leadership &amp; Initiative:</strong> Operated with autonomy, proactively identifying areas for improvement — translating directly to self-driven engineering work.</li>
+      </ul>
+
+      <div class="exp-section-label">Transferable Skills</div>
+      <div class="soft-grid">
+        <div class="soft-chip">Project Management</div>
+        <div class="soft-chip">Communication</div>
+        <div class="soft-chip">Critical Thinking</div>
+        <div class="soft-chip">Time Management</div>
+        <div class="soft-chip">Leadership</div>
+        <div class="soft-chip">Process Improvement</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     SKILLS
+══════════════════════════════ -->
+<section id="skills">
+  <p class="s-eyebrow reveal">Technical Expertise</p>
+  <h2 class="s-title reveal">Full-Stack Skill Set</h2>
+  <div class="divider reveal"></div>
+  <p class="s-sub reveal">A production-ready toolkit spanning languages, frameworks, databases, and emerging technologies — built through real project experience.</p>
+
+  <div class="sk-grid">
+    <div class="sk-card reveal">
+      <div class="sk-ico">☕</div>
+      <div class="sk-name">Java &amp; OOP Development</div>
+      <div class="sk-chips">
+        <span class="sk-chip">Java</span><span class="sk-chip">JavaFX</span>
+        <span class="sk-chip">OOP Principles</span><span class="sk-chip">Algorithms</span>
+        <span class="sk-chip">Data Structures</span><span class="sk-chip">Dijkstra's</span>
+        <span class="sk-chip">GIS Integration</span>
+      </div>
+    </div>
+    <div class="sk-card reveal">
+      <div class="sk-ico">🌐</div>
+      <div class="sk-name">Web Development</div>
+      <div class="sk-chips">
+        <span class="sk-chip">HTML5 / CSS3</span><span class="sk-chip">JavaScript</span>
+        <span class="sk-chip">React</span><span class="sk-chip">ASP.NET</span>
+        <span class="sk-chip">Node.js</span><span class="sk-chip">Django</span>
+        <span class="sk-chip">REST APIs</span><span class="sk-chip">JWT</span>
+      </div>
+    </div>
+    <div class="sk-card reveal">
+      <div class="sk-ico">📱</div>
+      <div class="sk-name">Mobile Development</div>
+      <div class="sk-chips">
+        <span class="sk-chip">Flutter</span><span class="sk-chip">Dart</span>
+        <span class="sk-chip">Cross-Platform</span><span class="sk-chip">OTP Verification</span>
+        <span class="sk-chip">Health Dashboards</span><span class="sk-chip">Real-Time Sync</span>
+      </div>
+    </div>
+    <div class="sk-card reveal">
+      <div class="sk-ico">🗄️</div>
+      <div class="sk-name">Databases &amp; Backend</div>
+      <div class="sk-chips">
+        <span class="sk-chip">MySQL</span><span class="sk-chip">SQL Server</span>
+        <span class="sk-chip">SQLite</span><span class="sk-chip">Schema Design</span>
+        <span class="sk-chip">Query Optimization</span><span class="sk-chip">C#</span>
+        <span class="sk-chip">.NET Framework</span>
+      </div>
+    </div>
+    <div class="sk-card reveal">
+      <div class="sk-ico">🤖</div>
+      <div class="sk-name">AI &amp; Workflow Automation</div>
+      <div class="sk-chips">
+        <span class="sk-chip">n8n Workflows</span><span class="sk-chip">AI Logic Design</span>
+        <span class="sk-chip">IBM AI Certified</span><span class="sk-chip">ML Fundamentals</span>
+        <span class="sk-chip">NLP Basics</span><span class="sk-chip">Rate-Limiting</span>
+      </div>
+    </div>
+    <div class="sk-card reveal">
+      <div class="sk-ico">🔧</div>
+      <div class="sk-name">Tools, Systems &amp; Soft Skills</div>
+      <div class="sk-chips">
+        <span class="sk-chip">Git / GitHub</span><span class="sk-chip">VS Code</span>
+        <span class="sk-chip">Power BI</span><span class="sk-chip">Assembly x86</span>
+        <span class="sk-chip">C++ / Visual Basic</span><span class="sk-chip">Agile</span>
+        <span class="sk-chip">Team Leadership</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     PROJECTS
+══════════════════════════════ -->
+<section id="projects">
+  <p class="s-eyebrow reveal">Portfolio</p>
+  <h2 class="s-title reveal">Projects I've Built</h2>
+  <div class="divider reveal"></div>
+  <p class="s-sub reveal">Five full-stack systems spanning mobile, web, desktop, and automation — click any thumbnail to watch the demo.</p>
+
+  <!-- Filter tabs -->
+  <div class="proj-tabs reveal">
+    <button class="ptab active" data-filter="all">All</button>
+    <button class="ptab" data-filter="web">Web</button>
+    <button class="ptab" data-filter="mobile">Mobile</button>
+    <button class="ptab" data-filter="desktop">Desktop</button>
+    <button class="ptab" data-filter="automation">Automation / AI</button>
+  </div>
+
+  <!-- Featured: AfterCare -->
+  <div class="proj-featured reveal" data-cat="mobile web">
+    <div class="pf-video-wrap">
+      <div class="yt-facade" data-vid="DeSuOZID1Ks"
+           style="background-image:url('https://img.youtube.com/vi/DeSuOZID1Ks/maxresdefault.jpg')">
+        <div class="yt-play-btn">
+          <svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>
+        </div>
+        <span class="yt-badge">▶ Watch Demo</span>
+      </div>
+    </div>
+    <div class="pf-info">
+      <div class="pf-num">PROJECT 01 · Feb – Oct 2025</div>
+      <div class="proj-stack">Flutter · ASP.NET · Node.js · SQL</div>
+      <div class="proj-title" style="font-size:1.15rem;margin:.4rem 0;">AfterCare — Web &amp; Mobile System</div>
+      <p class="proj-desc">A comprehensive full-stack after-school care management platform for parents, teachers, and administrators with real-time data synchronization.</p>
+      <ul class="proj-points" style="margin-bottom:1rem">
+        <li>Parent registration, attendance tracking, and teacher communication across web &amp; mobile.</li>
+        <li><strong>OTP-based pickup verification</strong> for child safety accountability.</li>
+        <li><strong>JWT authentication</strong>, health dashboards, and admin reporting.</li>
+        <li>Optimized <strong>REST APIs</strong> with normalized SQL schema.</li>
+      </ul>
+      <div class="proj-impact" style="margin-bottom:1.25rem"><strong>📈 Impact:</strong> Reduced admin overhead, improved pickup security, and enhanced parent-teacher communication.</div>
+      <div class="pf-actions">
+        <a href="https://github.com/IFMTYP2025/team1" target="_blank" class="btn btn-color-2" style="font-size:0.78rem;padding:.5rem 1.2rem;">⚡ GitHub</a>
+        <a href="https://www.youtube.com/watch?v=DeSuOZID1Ks" target="_blank" class="proj-yt" style="padding:.5rem 1.1rem;border-radius:4px;font-size:0.78rem;">▶ YouTube Demo</a>
+      </div>
+      <div class="pf-tags">
+        <span class="ptag">Flutter</span><span class="ptag">ASP.NET</span>
+        <span class="ptag">Node.js</span><span class="ptag">SQL</span><span class="ptag">JWT</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2-column grid -->
+  <div class="proj-main-grid">
+
+    <!-- Crime Mapping -->
+    <div class="proj-card reveal" data-cat="desktop">
+      <div class="proj-video-wrap">
+        <div class="yt-facade" data-vid="j5X0wNytWj8"></div>
+              <a href="https://www.youtube.com/watch?v=j5X0wNytWj8" target="_blank" class="proj-yt">▶ Demo</a>
+          <div class="yt-play-btn">
+            <svg viewBox="0 0 68 48" width="52" height="37"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>
+          </div>
+          <span class="yt-badge">▶ Watch Demo</span>
+        </div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-header-row">
+          <div class="ph-left">
+            <div class="proj-emoji">🗺️</div>
+            <div><div class="proj-title">Crime Mapping &amp; Pathfinding</div><div class="proj-period">Feb – Jun 2025</div></div>
+          </div>
+          <div class="proj-num">02</div>
+        </div>
+        <div class="proj-stack">Java · JavaFX · GIS · Algorithms</div>
+        <p class="proj-desc">Desktop app mapping crime-risk zones and computing safest routes using Dijkstra's algorithm with an interactive JavaFX GUI and real GIS data.</p>
+        <ul class="proj-points">
+          <li><strong>Dijkstra's + Euclidean</strong> algorithms for optimal route calculation.</li>
+          <li>Interactive map with colour-coded risk zones.</li>
+          <li>Real GIS geographic data integration.</li>
+        </ul>
+        <div class="proj-impact"><strong>📈 Impact:</strong> Improved route safety awareness through algorithm-driven guidance.</div>
+        <div class="proj-footer-row">
+          <div class="proj-tags"><span class="ptag">Java</span><span class="ptag">JavaFX</span><span class="ptag">GIS</span><span class="ptag">Dijkstra's</span></div>
+          <div class="proj-links-row">
+            <a href="https://github.com/Moreitu1985/CrimeMapping" target="_blank" class="proj-gh">⚡ GitHub</a>
+            <a href="https://www.youtube.com/watch?v=j5X0wNytWj8" target="_blank" class="proj-yt">▶ Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bursary Finder -->
+    <div class="proj-card reveal" data-cat="web automation">
+      <div class="proj-video-wrap">
+        <div class="yt-facade" data-vid="tl2lNlK2FzQ"
+             style="background-image:url('https://img.youtube.com/vi/tl2lNlK2FzQ/maxresdefault.jpg')">
+          <div class="yt-play-btn">
+            <svg viewBox="0 0 68 48" width="52" height="37"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>
+          </div>
+          <span class="yt-badge">▶ Watch Demo</span>
+        </div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-header-row">
+          <div class="ph-left">
+            <div class="proj-emoji">🎓</div>
+            <div><div class="proj-title">AI-Powered Bursary Finder</div><div class="proj-period">Hackathon 2025</div></div>
+          </div>
+          <div class="proj-num">03</div>
+        </div>
+        <div class="proj-stack">React · JavaScript · AI Logic</div>
+        <p class="proj-desc">Hackathon prototype with AI-driven bursary matching by academic and financial eligibility, with dynamic filtering and real-time results.</p>
+        <ul class="proj-points">
+          <li>Responsive React app with academic profile collection.</li>
+          <li>AI matching logic with real-time dynamic filtering.</li>
+          <li>Delivered fully functional under time pressure.</li>
+        </ul>
+        <div class="proj-impact"><strong>📈 Impact:</strong> Streamlined bursary discovery, demonstrating rapid development under constraints.</div>
+        <div class="proj-footer-row">
+          <div class="proj-tags"><span class="ptag">React</span><span class="ptag">JavaScript</span><span class="ptag">AI</span></div>
+          <div class="proj-links-row">
+            <a href="https://github.com/Moreitu1985/Friends-like-These" target="_blank" class="proj-gh">⚡ GitHub</a>
+            <a href="https://youtu.be/tl2lNlK2FzQ" target="_blank" class="proj-yt">▶ Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Telegram Bot -->
+    <div class="proj-card reveal" data-cat="automation">
+      <div class="proj-video-wrap proj-no-video">
+        <div class="proj-placeholder">
+          <div class="pp-icon">🤖</div>
+          <div class="pp-text">Automation Project</div>
+        </div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-header-row">
+          <div class="ph-left">
+            <div class="proj-emoji">🤖</div>
+            <div><div class="proj-title">Telegram Chatbot Automation</div><div class="proj-period">Jan – Feb 2026</div></div>
+          </div>
+          <div class="proj-num">04</div>
+        </div>
+        <div class="proj-stack">n8n · MySQL</div>
+        <p class="proj-desc">Telegram bot with user validation, daily rate-limiting, MySQL-backed message tracking, and conditional workflow logic to block unauthorized usage.</p>
+        <ul class="proj-points">
+          <li>Scalable rate-limiting and conditional access-control workflows.</li>
+          <li>MySQL integration for persistent daily quota management.</li>
+        </ul>
+        <div class="proj-impact"><strong>📈 Impact:</strong> Demonstrated backend automation design and scalable workflow architecture.</div>
+        <div class="proj-footer-row">
+          <div class="proj-tags"><span class="ptag">n8n</span><span class="ptag">MySQL</span><span class="ptag">Automation</span></div>
+          <div class="proj-links-row">
+            <a href="https://github.com/Moreitu1985" target="_blank" class="proj-gh">⚡ GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- E-Thrifting -->
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-video-wrap proj-no-video">
+        <div class="proj-placeholder" style="background:linear-gradient(135deg,#222,#444)">
+          <div class="pp-icon">🛍️</div>
+          <div class="pp-text">E-Commerce Platform</div>
+        </div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-header-row">
+          <div class="ph-left">
+            <div class="proj-emoji">🛍️</div>
+            <div><div class="proj-title">E-Thrifting E-Commerce Platform</div><div class="proj-period">Mar – Aug 2025</div></div>
+          </div>
+          <div class="proj-num">05</div>
+        </div>
+        <div class="proj-stack">Python · Django · HTML/CSS · SQL</div>
+        <p class="proj-desc">Secure student marketplace with authentication, product listings, shopping cart, admin dashboard, and role-based access control.</p>
+        <ul class="proj-points">
+          <li>Role-based access control and streamlined order processing.</li>
+          <li>Normalized SQL schema for efficient product and transaction data.</li>
+        </ul>
+        <div class="proj-impact"><strong>📈 Impact:</strong> Created a sustainable campus marketplace demonstrating full-stack capability.</div>
+        <div class="proj-footer-row">
+          <div class="proj-tags"><span class="ptag">Django</span><span class="ptag">Python</span><span class="ptag">SQL</span></div>
+          <div class="proj-links-row">
+            <a href="https://github.com/Moreitu1985" target="_blank" class="proj-gh">⚡ GitHub</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end proj-main-grid -->
+
+  <!-- YouTube Modal -->
+  <div id="ytModal" class="yt-modal">
+    <div class="yt-backdrop" id="ytBackdrop"></div>
+    <div class="yt-box">
+      <button class="yt-close" id="ytClose">✕</button>
+      <div class="yt-iframe-wrap">
+        <iframe id="ytFrame" src="" allow="autoplay; encrypted-media" allowfullscreen title="Project demo"></iframe>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ══════════════════════════════
+     CONTACT
+══════════════════════════════ -->
+<section id="contact">
+  <p class="s-eyebrow reveal">Get In Touch</p>
+  <h2 class="s-title reveal">Let's Build Something Together</h2>
+  <div class="divider reveal"></div>
+
+  <div class="contact-grid">
+    <!-- Left: links -->
+    <div class="reveal">
+      <p class="contact-lead">
+        I'm actively seeking full-time opportunities in <strong>Java development, full-stack web engineering, or mobile development</strong> — preferably in Johannesburg or remote. If you're looking for a dedicated, fast-learning developer who ships clean code, I'd love to hear from you.
+      </p>
+      <div class="contact-links">
+        <a href="tel:+27765882113" class="cl">
+          <div class="cl-ico">📞</div>
+          <div><div class="cl-lbl">Phone</div><div class="cl-val">076 588 2113</div></div>
+          <div class="cl-arrow">→</div>
+        </a>
+        <a href="mailto:Itumelengmore15@gmail.com" class="cl">
+          <div class="cl-ico">✉️</div>
+          <div><div class="cl-lbl">Email</div><div class="cl-val">Itumelengmore15@gmail.com</div></div>
+          <div class="cl-arrow">→</div>
+        </a>
+        <a href="https://www.linkedin.com/in/itumeleng-more-5a2073244/" target="_blank" class="cl">
+          <div class="cl-ico">💼</div>
+          <div><div class="cl-lbl">LinkedIn</div><div class="cl-val">in/itumeleng-more</div></div>
+          <div class="cl-arrow">→</div>
+        </a>
+        <a href="https://github.com/Moreitu1985" target="_blank" class="cl">
+          <div class="cl-ico">⚡</div>
+          <div><div class="cl-lbl">GitHub</div><div class="cl-val">github.com/Moreitu1985</div></div>
+          <div class="cl-arrow">→</div>
+        </a>
+        <a href="https://myportfolioi.vercel.app" target="_blank" class="cl">
+          <div class="cl-ico">🌐</div>
+          <div><div class="cl-lbl">Live Portfolio</div><div class="cl-val">myportfolioi.vercel.app</div></div>
+          <div class="cl-arrow">→</div>
+        </a>
+      </div>
+      <div class="avail-card">
+        <div class="avail-dot"></div>
+        <div class="avail-text"><strong>Currently available</strong> — Open to full-time roles, internships, and contract engagements in Johannesburg and remote.</div>
+      </div>
+    </div>
+	
+	
+	<!-- ══════════════════════════════
+     GAMER PROFILE MODAL
+══════════════════════════════ -->
+<div class="gamer-modal" id="gamerModal">
+  <div class="gamer-overlay" onclick="closeGamerModal()"></div>
+
+  <div class="gamer-box">
+    <button class="gamer-close" onclick="closeGamerModal()">✖</button>
+
+    <!-- Header -->
+    <div class="gamer-header">
+      <div class="controller">🎮</div>
+      <span class="fun-badge">Fun Fact</span>
+    </div>
+
+    <!-- Gamertag -->
+    <div class="gamertag-card">
+      <span class="online-dot"></span>
+	  <p> I am a Gamer</p>
+      <span class="gamertag">Bigplayerxox</span>
+    </div>
+
+    <!-- Games -->
+    <div class="game-row">
+      <div class="game-card fifa">
+        ⚽ FIFA
+      </div>
+      <div class="game-card cod">
+        🔫 Call of Duty
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="gaming-skills">
+      <div>⚡ Fast Decision-Making</div>
+      <div>🧠 Strategic Thinking</div>
+      <div>🤝 Team Coordination</div>
+      <div>🏆 Competitive Drive</div>
+      <div>🧊 Composure Under Pressure</div>
+      <div>🔄 Adapting Fast</div>
+    </div>
+
+    <!-- LinkedIn -->
+    <div style="margin-top: 1.5rem;">
+      <a href="https://www.twitch.tv/bigplayerxox target="_blank" class="btn btn-color-1">
+        Follow on Twitch
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+    <!-- Right: form -->
+    <div class="reveal">
+      <div class="form-title">Send a Message</div>
+      <div class="contact-form">
+        <form id="contactForm" novalidate>
+          <div class="f-row">
+            <div class="fg">
+              <label for="fn">First Name *</label>
+              <input type="text" id="fn" placeholder="Jane" />
+              <span class="f-err" id="fn-err">First name is required.</span>
+            </div>
+            <div class="fg">
+              <label for="ln">Last Name</label>
+              <input type="text" id="ln" placeholder="Doe" />
+            </div>
+          </div>
+          <div class="fg">
+            <label for="em">Email *</label>
+            <input type="email" id="em" placeholder="jane@company.com" />
+            <span class="f-err" id="em-err">Please enter a valid email.</span>
+          </div>
+          <div class="fg">
+            <label for="co">Company / Organisation</label>
+            <input type="text" id="co" placeholder="e.g. Acme Corp (optional)" />
+          </div>
+          <div class="fg">
+            <label for="ro">Role / Opportunity</label>
+            <input type="text" id="ro" placeholder="e.g. Junior Java Developer, Internship..." />
+          </div>
+          <div class="fg">
+            <label for="sub">Subject *</label>
+            <input type="text" id="sub" placeholder="Job opportunity, project, collaboration..." />
+            <span class="f-err" id="sub-err">Please enter a subject.</span>
+          </div>
+          <div class="fg">
+            <label for="msg">Message *</label>
+            <textarea id="msg" placeholder="Tell me about the role or opportunity. I respond within 24 hours."></textarea>
+            <span class="f-err" id="msg-err">Please write a message (min 10 characters).</span>
+          </div>
+          <button type="submit" class="f-submit" id="submitBtn">Send Message →</button>
+          <div class="f-ok" id="formOk">✅ &nbsp;Message received! I'll respond within 24 hours.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+  	<button class="btn btn-color-1" onclick="openGamerModal()">
+  🎮 Fun Fact
+</button>
+</section>
+
+
+
+<!-- ══════════════════════════════
+     FOOTER
+══════════════════════════════ -->
+<footer>
+  <div class="footer-top">
+    <div class="f-logo">Itumeleng <em>More.</em></div>
+    <nav class="f-nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/Moreitu1985" target="_blank">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/itumeleng-more-5a2073244/" target="_blank">LinkedIn ↗</a>
+      <a href="https://myportfolioi.vercel.app" target="_blank">Portfolio ↗</a>
+    </nav>
+  </div>
+  <p class="f-copy">© 2025 Itumeleng More · BSc Computer Science &amp; Informatics · University of Johannesburg · Johannesburg, South Africa 🇿🇦</p>
+</footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
