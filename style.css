@@ -1,0 +1,140 @@
+/* ═══════════════════════════════
+   RESET
+═══════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html  { scroll-behavior: smooth; }
+body  { font-family: "Poppins", sans-serif; color: #111; background: #fff; overflow-x: hidden; }
+p     { color: rgb(85, 85, 85); }
+a     { color: inherit; text-decoration: none; transition: all 0.3s ease; }
+ul    { list-style: none; }
+img   { max-width: 100%; display: block; }
+
+/* ═══════════════════════════════
+   SCROLL PROGRESS BAR
+═══════════════════════════════ */
+#scroll-bar {
+  position: fixed; top: 0; left: 0; height: 3px; width: 0%;
+  background: #111; z-index: 9999; transition: width 0.08s linear;
+}
+
+
+/* ═══════════════════════════════
+   GAMER MODAL
+═══════════════════════════════ */
+.gamer-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+
+}
+
+.gamer-modal.open {
+  display: flex;
+}
+
+.gamer-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba green;
+  backdrop-filter: blur(6px);
+}
+
+.gamer-box {
+  position: relative;
+  z-index: 1;
+  width: min(600px, 90vw);
+  background: #111;
+  color: green;
+  padding: 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+  animation: popIn 0.3s ease;
+}
+
+.gamer-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Header */
+.gamer-header {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.controller {
+  font-size: 3rem;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.fun-badge {
+  display: inline-block;
+  background: #22c55e;
+  color:green;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+/* Gamertag */
+.gamertag-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 0.8rem;
+  border-radius: 12px;
+  font-family: monospace;
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.online-dot {
+   width: 10px;
+  height: 10px;
+  background-color: #00ff00;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+/* Games */
+.game-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.game-card {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.fifa {
+  background: #22c55e;
+  color: #111;
+}
+
+.cod {
+  background: #ef4444;
+}
